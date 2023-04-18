@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESLA CLONE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./tesla-logo-png-20.png " width="100px">
+        <nav class="center desk">
+            <a href="#model-s">Model S</a>
+            <a href="#model-3">Model 3</a>
+            <a href="#model-x">Model X</a>
+            <a href="#model-y">Model Y</a>
+            <a href="#Solar">Solar Panel</a>
+            <a href="#roof">Roof</a>
+        </nav>
+        <nav class="right">
+            <a href="#" class="desk">Shop</a>
+            <a href="#" class="desk">Account</a>
+            <a href="" id="menu" onclick="openMenu()">menu</a>
+        </nav>
+    </header>
+    <aside>
+        <button class="close" id="close" onclick="closingMenu()">&times;</button>
+        <a href="#model-s">Model S</a>
+        <a href="#model-3">Model 3</a>
+        <a href="#model-x">Model X</a>
+        <a href="#model-y">Model Y</a>
+        <a href="#">Exixting Inventory</a>
+        <a href="#">Used Inventory</a>
+        <a href="#">Trade-In</a>
+        <a href="#">Demo Drive</a>
+        <a href="#">Insurance</a>
+        <a href="#">Find Us</a>
+        <a href="#">Support</a>
+    </aside>
+    <div class="backdrop" onclick="backdrop()"></div>
+    <section id="model-s" style="background-image: url(./model-s.jpg);">
+        <div class="content">
+            <h1>Model S</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section id="model-3" style="background-image: url(./model-3.jpg);">
+        <div class="content">
+            <h1>Model 3</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section id="model-x" style="background-image: url(./model-x.jpg);">
+        <div class="content">
+            <h1>Model X</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section id="model-y" style="background-image: url(./model-y.jpg);">
+        <div class="content">
+            <h1>Model Y</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section id="Solar" style="background-image: url(./solarpanels.jpg);">
+        <div class="content">
+            <h1>Solar Panels</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section id="roof" style="background-image: url(./roof.jpg);">
+        <div class="content">
+            <h1>Roof</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button">
+                <a href="#">Custom Order</a>
+                <a href="#">View Inventory</a>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(./accessories.jpg);">
+        <div class="contents">
+            <h1>Accessories</h1>
+            <span>Order Online for <a href="#">Touchless Delivery</a></span>
+            <div class="button1">
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
